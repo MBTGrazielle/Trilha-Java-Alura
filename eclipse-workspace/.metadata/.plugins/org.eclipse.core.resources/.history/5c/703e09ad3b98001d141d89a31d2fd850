@@ -1,0 +1,12 @@
+
+public class TesteGerente {
+	public static void main(String[] args) {
+		Gerente grazi = new Gerente();
+		grazi.setNome("Grazielle");
+		grazi.setCpf("485.968.784-85");
+		grazi.setSalario(7000.00);
+		System.out.println(grazi.getCpf());
+		System.out.println(grazi.getNome());
+		System.out.println(grazi.getBonificacao());
+	}
+}

@@ -1,0 +1,43 @@
+
+public class TesteFuncionarioTipo {
+	public static void main(String[] args) {
+		FuncionarioTeste paula = new FuncionarioTeste();
+		paula.setNome("Paula");
+		paula.setCpf("048.302.145-98");
+		paula.setSalario(4500.00);
+
+		System.out.println("Nome: " + paula.getNome());
+		System.out.println("Tipo: " + paula.getTipo());
+		System.out.println("CPF: " + paula.getCpf());
+		System.out.println("Salário: " + paula.getSalario());
+		System.out.println("Bonificação: " + paula.getBonificacao());
+
+		System.out.println(" ");
+
+		FuncionarioTeste rafael = new FuncionarioTeste();
+		rafael.setNome("Rafael");
+		rafael.setCpf("048.302.185-98");
+		rafael.setSalario(8000.00);
+		rafael.setTipo(1);
+
+		System.out.println("Nome: " + rafael.getNome());
+		System.out.println("Tipo: " + rafael.getTipo());
+		System.out.println("CPF: " + rafael.getCpf());
+		System.out.println("Salário: " + rafael.getSalario());
+		System.out.println("Bonificação: " + rafael.getBonificacao());
+		
+		System.out.println(" ");
+
+		FuncionarioTeste joana = new FuncionarioTeste();
+		joana.setNome("Joana");
+		joana.setCpf("048.302.185-97");
+		joana.setSalario(10000.00);
+		joana.setTipo(2);
+
+		System.out.println("Nome: " + joana.getNome());
+		System.out.println("Tipo: " + joana.getTipo());
+		System.out.println("CPF: " + joana.getCpf());
+		System.out.println("Salário Final: " + joana.getSalario());
+		System.out.println("Bonificação: " + joana.getBonificacao());
+	}
+}

@@ -1,0 +1,14 @@
+
+public class TesteFuncionarioTipo {
+	public static void main(String[] args) {
+		Funcionario grazi = new Funcionario();
+		grazi.setNome("Grazielle");
+		grazi.setCpf("048.302.145-98");
+		grazi.setSalario(4500.00);
+
+		System.out.println("Nome: " + grazi.getNome());
+		System.out.println("CPF: " + grazi.getCpf());
+		System.out.println("Salário: " + grazi.getSalario());
+		System.out.println("Bonificação: " + grazi.getBonificacao());
+	}
+}

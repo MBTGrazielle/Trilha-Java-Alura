@@ -1,0 +1,27 @@
+
+public class TesteFuncionarioTipo {
+	public static void main(String[] args) {
+		FuncionarioTeste paula = new FuncionarioTeste();
+		paula.setNome("Grazielle");
+		paula.setCpf("048.302.145-98");
+		paula.setSalario(4500.00);
+
+		System.out.println("Nome: " + paula.getNome());
+		System.out.println("Tipo: " + paula.getTipo());
+		System.out.println("CPF: " + paula.getCpf());
+		System.out.println("Salário: " + paula.getSalario());
+		System.out.println("Bonificação: " + paula.getBonificacao());
+		System.out.println(" ");
+		
+		FuncionarioTeste rafael = new FuncionarioTeste();
+		rafael.setNome("Grazielle");
+		rafael.setCpf("048.302.145-98");
+		rafael.setSalario(4500.00);
+		
+		System.out.println("Nome: " + rafael.getNome());
+		System.out.println("Tipo: " + rafael.getTipo());
+		System.out.println("CPF: " + rafael.getCpf());
+		System.out.println("Salário: " + rafael.getSalario());
+		System.out.println("Bonificação: " + rafael.getBonificacao());
+	}
+}
